@@ -16,9 +16,6 @@
   margin-top: .2rem;
 }
 
-.section-dual-tiles__tile.has-mobile-media {
-  min-height: 104.5vw;
-}
 
 .section-dual-tiles__media {
   position: relative;
