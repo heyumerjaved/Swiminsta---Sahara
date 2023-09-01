@@ -84,7 +84,7 @@
 
 .section-full-width-banner__subtitle {
   color: var(--color-heading-text);
-  font-size: var(--font-size-static-small);
+  font-size: 2rem;
   line-height: var(--line-height-small);
   letter-spacing: var(--letter-spacing-medium);
   margin: 0 0 1.6rem;
