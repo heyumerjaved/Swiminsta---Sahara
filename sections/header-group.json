@@ -1,0 +1,101 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "cee0c4f6-5546-43a3-bfc3-2f3afa36d9d5": {
+          "type": "text-slide",
+          "settings": {
+            "content": "<p>THE WORLDS FIRST PROBLEM SOLVING SWIM BRAND!<\/p>",
+            "countdown": false,
+            "restart_timer": true,
+            "repeat_cycle": "Week",
+            "countdown_timer_year": 2023,
+            "countdown_timer_month": "01",
+            "countdown_timer_day": "01",
+            "enable_days": true,
+            "countdown_timer_hour": "01",
+            "enable_hours": true,
+            "countdown_timer_minute": "00",
+            "enable_minutes": true,
+            "enable_seconds": true
+          }
+        },
+        "5e0cad2e-d931-416e-ac29-51a4a683ade2": {
+          "type": "text-slide",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Make an announcement here<\/p>",
+            "countdown": false,
+            "restart_timer": false,
+            "repeat_cycle": "Week",
+            "countdown_timer_year": 2023,
+            "countdown_timer_month": "01",
+            "countdown_timer_day": "01",
+            "enable_days": true,
+            "countdown_timer_hour": "01",
+            "enable_hours": true,
+            "countdown_timer_minute": "00",
+            "enable_minutes": true,
+            "enable_seconds": true
+          }
+        }
+      },
+      "block_order": [
+        "cee0c4f6-5546-43a3-bfc3-2f3afa36d9d5",
+        "5e0cad2e-d931-416e-ac29-51a4a683ade2"
+      ],
+      "settings": {
+        "color_scheme_text": "text-colors-default",
+        "color_scheme_background": "background-colors-accent-1",
+        "slider_autoplay_interval": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "a2be574a-621e-4a37-b154-397aabd881d9": {
+          "type": "image-link-text",
+          "disabled": true,
+          "settings": {
+            "menu_link_title": "Shop Swim",
+            "image": "shopify:\/\/shop_images\/12_02ffd11e-9444-4304-b770-e267aa5c1621.png",
+            "url": "shopify:\/\/collections\/all-tops",
+            "title": "Tops"
+          }
+        }
+      },
+      "block_order": [
+        "a2be574a-621e-4a37-b154-397aabd881d9"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "sticky": false,
+        "layout": "",
+        "transparent_header_homepage": true,
+        "transparent_header_collection": false,
+        "transparent_header_bottom_border": true,
+        "logo": "shopify:\/\/shop_images\/swiminista-logo-all-black.png",
+        "logo_transparent": "shopify:\/\/shop_images\/swiminista-logo-wt.png",
+        "logo_svg_code": "",
+        "logo_width": 170,
+        "logo_width_mobile": 60,
+        "menu": "main-menu",
+        "submenu": "",
+        "menu_column_count": 5,
+        "country_drawer_header": true,
+        "country_drawer_navigation_menu": true,
+        "first_additional_link_title": "Our Story",
+        "first_additional_link_url": "shopify:\/\/pages\/our-story",
+        "second_additional_link_title": "Blog",
+        "second_additional_link_url": "shopify:\/\/blogs\/blog"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

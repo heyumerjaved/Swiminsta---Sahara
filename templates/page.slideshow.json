@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "67d58420-0a06-4340-abd0-ab44def09bdb": {
+      "type": "hero-banner",
+      "blocks": {
+        "a13e25d6-e0dd-4032-a2ba-9a81a80051f1": {
+          "type": "slide",
+          "settings": {
+            "banner_layout": "hero-banner--full",
+            "color_scheme_text": "text-colors-inverse",
+            "color_scheme_background": "background-colors-accent-2",
+            "header_menu_text_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/Firefly_20230823225859.png",
+            "video_external": "",
+            "enable_media_overlay_desktop": true,
+            "video_external_mobile": "",
+            "enable_media_overlay_mobile": true,
+            "content_position_horizontal": "align-end text-right",
+            "content_position_vertical": "justify-end",
+            "subtitle": "LET US FIND YOU THE PERFECT FIT.",
+            "subtitle_url": "",
+            "title": "",
+            "content": "<h2>YOUR PERSONAL SIZE GUIDE<\/h2>",
+            "enable_vertical_line": false,
+            "button_style": "button--filled",
+            "button_text": "Click to select your size",
+            "button_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "a13e25d6-e0dd-4032-a2ba-9a81a80051f1"
+      ],
+      "settings": {
+        "slider_autoplay": false,
+        "slider_autoplay_interval": 6,
+        "slider_arrows": false,
+        "slider_arrows_position": "hero__swiper-buttons--sides",
+        "slider_arrows_color": "text-colors-inverse"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "breadcrumbs": true,
+        "info_title": "",
+        "info_content": "",
+        "color_scheme_text": "text-colors-default",
+        "color_scheme_background": "background-colors-default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "67d58420-0a06-4340-abd0-ab44def09bdb"
+  ]
+}

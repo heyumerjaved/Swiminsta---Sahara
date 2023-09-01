@@ -1,0 +1,541 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": false,
+        "breadcrumbs": false,
+        "info_title": "",
+        "info_content": "",
+        "color_scheme_text": "text-colors-default",
+        "color_scheme_background": "background-colors-default"
+      }
+    },
+    "0a31313a-a7f9-4a2c-8ec9-57645abd73c7": {
+      "type": "full-width-banner",
+      "blocks": {
+        "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-subtitle-1": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Introducing Swiminista",
+            "subtitle_url": ""
+          }
+        },
+        "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Supported swimwear designed to move and engineered to complement the body."
+          }
+        },
+        "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "first_button_text": "",
+            "first_button_url": "",
+            "first_button_style": "button--outlined-inverse",
+            "first_button_color_scheme_background": "background-colors-default",
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "button--outlined-inverse",
+            "second_button_color_scheme_background": "background-colors-default"
+          }
+        }
+      },
+      "block_order": [
+        "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-subtitle-1",
+        "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-title-1",
+        "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-buttons-1"
+      ],
+      "settings": {
+        "full_width_banner_height": 100,
+        "banner_layout": "section-full-width-banner--full",
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0,
+        "color_scheme_text": "text-colors-inverse",
+        "color_scheme_background": "background-colors-accent-2",
+        "image_desktop": "shopify:\/\/shop_images\/SWIMINISTA-141rt.jpg",
+        "video_desktop_external": "",
+        "video_mobile_external": "",
+        "content_position_horizontal": "align-center text-center",
+        "content_position_vertical": "justify-end",
+        "content_padding_top": 0,
+        "content_padding_bottom": 8,
+        "content_padding_left": 8,
+        "content_padding_right": 8
+      }
+    },
+    "a52d1c85-9315-44fd-b170-834e156ae9c3": {
+      "type": "dual-tiles",
+      "blocks": {
+        "template--14822968787014__a52d1c85-9315-44fd-b170-834e156ae9c3-tile-1": {
+          "type": "tile",
+          "settings": {
+            "color_scheme_text": "text-colors-default",
+            "color_scheme_background": "background-colors-accent-1",
+            "video_desktop_external": "",
+            "video_desktop_aspect_ratio": "16\/9",
+            "placeholder_svg_code": "",
+            "video_mobile_external": "",
+            "video_mobile_aspect_ratio": "16\/9",
+            "video_mobile_compact": false,
+            "content_position_horizontal": "text-left align-start",
+            "content_position_vertical": "justify-center",
+            "title": "ANDRÉA BERNHOLTZ",
+            "text_size": 2,
+            "content": "<p>Andréa Bernholtz was inspired to create SWIMINISTA in an effort to give women the confidence to celebrate their own bodies and to reduce the impact swimwear has on the planet by softening her own footprint, using luxury recycled fabrics to create her entire collection.<\/p><p>Andréa’s first fashion line, celebrity favorite Rock & Republic, made an impact on the denim industry with innovative fit technology. She grew the line into a full lifestyle brand, offering an expanded runway collection, cosmetics, and shoes. Her designs attracted the attention of many high profile celebrities including Victoria Beckham which led to the first of the Victoria's fashion collaborations. For 11 years, Rock & Republic showed twice a year in Paris and New York and was globally recognized, selling in all the major international stores, Neiman Marcus, Saks, Harrods and Galleries LaFayette to name a few, plus hundreds of specialty boutiques, and in its own stand alone stores in the US.<\/p>",
+            "button_style": "button--filled",
+            "button_separator": false,
+            "button_text": "",
+            "button_url": "",
+            "content_layout": "content--absolute",
+            "block_margin_left": 0,
+            "block_margin_right": 0,
+            "block_padding_top": 0,
+            "block_padding_bottom": 0,
+            "block_padding_left": 0,
+            "block_padding_right": 0
+          }
+        },
+        "template--14822968787014__a52d1c85-9315-44fd-b170-834e156ae9c3-tile-2": {
+          "type": "tile",
+          "settings": {
+            "color_scheme_text": "text-colors-default",
+            "color_scheme_background": "background-colors-accent-2",
+            "image_desktop": "shopify:\/\/shop_images\/andrea-new_1.jpg",
+            "video_desktop_external": "",
+            "video_desktop_aspect_ratio": "16\/9",
+            "placeholder_svg_code": "",
+            "video_mobile_external": "",
+            "video_mobile_aspect_ratio": "16\/9",
+            "video_mobile_compact": false,
+            "content_position_horizontal": "text-center align-center",
+            "content_position_vertical": "justify-center",
+            "title": "",
+            "text_size": 1,
+            "content": "",
+            "button_style": "button--filled",
+            "button_separator": false,
+            "button_text": "",
+            "button_url": "\/",
+            "content_layout": "content--relative",
+            "block_margin_left": 0,
+            "block_margin_right": 0,
+            "block_padding_top": 0,
+            "block_padding_bottom": 0,
+            "block_padding_left": 0,
+            "block_padding_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14822968787014__a52d1c85-9315-44fd-b170-834e156ae9c3-tile-1",
+        "template--14822968787014__a52d1c85-9315-44fd-b170-834e156ae9c3-tile-2"
+      ],
+      "settings": {
+        "section_width": "max-w-full",
+        "section_height": 100,
+        "layout": "section-dual-tiles--70-30",
+        "gap_between_tiles": 0,
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0
+      }
+    },
+    "da04f0ee-aadf-4811-b976-bf3631493afc": {
+      "type": "full-width-banner",
+      "blocks": {
+        "template--14822968787014__da04f0ee-aadf-4811-b976-bf3631493afc-subtitle-1": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "Eco-minded",
+            "subtitle_url": ""
+          }
+        },
+        "template--14822968787014__da04f0ee-aadf-4811-b976-bf3631493afc-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Made From Luxury Recycled Fabric"
+          }
+        },
+        "template--14822968787014__da04f0ee-aadf-4811-b976-bf3631493afc-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "first_button_text": "",
+            "first_button_url": "",
+            "first_button_style": "button--outlined-inverse",
+            "first_button_color_scheme_background": "background-colors-default",
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "button--outlined-inverse",
+            "second_button_color_scheme_background": "background-colors-default"
+          }
+        }
+      },
+      "block_order": [
+        "template--14822968787014__da04f0ee-aadf-4811-b976-bf3631493afc-subtitle-1",
+        "template--14822968787014__da04f0ee-aadf-4811-b976-bf3631493afc-title-1",
+        "template--14822968787014__da04f0ee-aadf-4811-b976-bf3631493afc-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width_banner_height": 100,
+        "banner_layout": "section-full-width-banner--full",
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0,
+        "color_scheme_text": "text-colors-inverse",
+        "color_scheme_background": "background-colors-accent-2",
+        "image_desktop": "shopify:\/\/shop_images\/Untitled_design.png",
+        "video_desktop_external": "",
+        "video_mobile_external": "",
+        "content_position_horizontal": "align-center text-center",
+        "content_position_vertical": "justify-end",
+        "content_padding_top": 0,
+        "content_padding_bottom": 6.4,
+        "content_padding_left": 24,
+        "content_padding_right": 24
+      }
+    },
+    "5363afc8-756d-4160-a8c7-5369a4e1de49": {
+      "type": "hero-banner",
+      "blocks": {
+        "1c019238-1381-4604-b76f-bb2769b97511": {
+          "type": "slide",
+          "settings": {
+            "banner_layout": "hero-banner--full",
+            "color_scheme_text": "text-colors-inverse",
+            "color_scheme_background": "background-colors-accent-2",
+            "header_menu_text_color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "video_external": "",
+            "enable_media_overlay_desktop": true,
+            "video_external_mobile": "",
+            "enable_media_overlay_mobile": true,
+            "content_position_horizontal": "align-center text-center",
+            "content_position_vertical": "justify-end",
+            "subtitle": "Eco-minded",
+            "subtitle_url": "",
+            "title": "",
+            "content": "<h3>Made From Luxury Recycled Fabric<\/h3>",
+            "enable_vertical_line": true,
+            "button_style": "button--filled",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "1c019238-1381-4604-b76f-bb2769b97511"
+      ],
+      "settings": {
+        "slider_autoplay": false,
+        "slider_autoplay_interval": 3,
+        "slider_arrows": false,
+        "slider_arrows_position": "hero__swiper-buttons--sides",
+        "slider_arrows_color": "text-colors-inverse"
+      }
+    },
+    "09f9cddb-4790-4bef-9ed6-d7ff097a4503": {
+      "type": "dual-tiles",
+      "blocks": {
+        "3378db47-e1f3-4e81-bce6-6b2840a293c9": {
+          "type": "tile",
+          "settings": {
+            "color_scheme_text": "text-colors-default",
+            "color_scheme_background": "background-colors-accent-1",
+            "video_desktop_external": "",
+            "video_desktop_aspect_ratio": "16\/9",
+            "placeholder_svg_code": "",
+            "video_mobile_external": "",
+            "video_mobile_aspect_ratio": "16\/9",
+            "video_mobile_compact": false,
+            "content_position_horizontal": "text-left align-start",
+            "content_position_vertical": "justify-center",
+            "title": "FOR THE EARTH",
+            "text_size": 2,
+            "content": "<p>Andréa grew up recycling way before it was “cool” and takes it beyond her business, organizing regular beach clean-ups with her daughter in their local community. In her first fashion line, Rock & Republic she partnered with an organization that recycled remnant fabrics from the cutting room into insulation.<\/p><p><br\/><br\/><\/p>",
+            "button_style": "button--filled",
+            "button_separator": false,
+            "button_text": "",
+            "button_url": "",
+            "content_layout": "content--absolute",
+            "block_margin_left": 0,
+            "block_margin_right": 0,
+            "block_padding_top": 0,
+            "block_padding_bottom": 0,
+            "block_padding_left": 0,
+            "block_padding_right": 0
+          }
+        },
+        "114989e5-556b-48e5-9e0f-4382b032f1ef": {
+          "type": "tile",
+          "settings": {
+            "color_scheme_text": "text-colors-default",
+            "color_scheme_background": "background-colors-accent-2",
+            "image_desktop": "shopify:\/\/shop_images\/sustainability-swiminista.jpg",
+            "video_desktop_external": "",
+            "video_desktop_aspect_ratio": "16\/9",
+            "placeholder_svg_code": "",
+            "video_mobile_external": "",
+            "video_mobile_aspect_ratio": "16\/9",
+            "video_mobile_compact": false,
+            "content_position_horizontal": "text-center align-center",
+            "content_position_vertical": "justify-center",
+            "title": "",
+            "text_size": 1,
+            "content": "",
+            "button_style": "button--filled",
+            "button_separator": false,
+            "button_text": "",
+            "button_url": "\/",
+            "content_layout": "content--relative",
+            "block_margin_left": 0,
+            "block_margin_right": 0,
+            "block_padding_top": 0,
+            "block_padding_bottom": 0,
+            "block_padding_left": 0,
+            "block_padding_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "3378db47-e1f3-4e81-bce6-6b2840a293c9",
+        "114989e5-556b-48e5-9e0f-4382b032f1ef"
+      ],
+      "settings": {
+        "section_width": "max-w-full",
+        "section_height": 100,
+        "layout": "section-dual-tiles--50-50",
+        "gap_between_tiles": 0,
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0
+      }
+    },
+    "aac5cc7c-36a7-4b7e-a085-70a516091842": {
+      "type": "full-width-banner",
+      "blocks": {
+        "cec34d15-42f3-4353-a8a4-5321317935a2": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Eco-minded",
+            "subtitle_url": ""
+          }
+        },
+        "18559383-d3cd-4330-a268-4d974dbaacec": {
+          "type": "content",
+          "settings": {
+            "content": "<h3>HIGHLY ADJUSTABLE<\/h3>"
+          }
+        },
+        "8281fd9a-4ed0-4301-962a-66b13c6ce725": {
+          "type": "title",
+          "settings": {
+            "title": "CHIC, SEXY & SUPPORTIVE"
+          }
+        },
+        "1ff35b6f-5c1a-4ee2-bc7c-2d0c00f2bee8": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "first_button_text": "",
+            "first_button_url": "",
+            "first_button_style": "button--outlined-inverse",
+            "first_button_color_scheme_background": "background-colors-default",
+            "second_button_text": "",
+            "second_button_url": "",
+            "second_button_style": "button--outlined-inverse",
+            "second_button_color_scheme_background": "background-colors-default"
+          }
+        }
+      },
+      "block_order": [
+        "cec34d15-42f3-4353-a8a4-5321317935a2",
+        "18559383-d3cd-4330-a268-4d974dbaacec",
+        "8281fd9a-4ed0-4301-962a-66b13c6ce725",
+        "1ff35b6f-5c1a-4ee2-bc7c-2d0c00f2bee8"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width_banner_height": 100,
+        "banner_layout": "section-full-width-banner--full",
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0,
+        "color_scheme_text": "text-colors-inverse",
+        "color_scheme_background": "background-colors-accent-2",
+        "image_desktop": "shopify:\/\/shop_images\/shic-sexy-supportive.jpg",
+        "video_desktop_external": "",
+        "video_mobile_external": "",
+        "content_position_horizontal": "align-center text-center",
+        "content_position_vertical": "justify-end",
+        "content_padding_top": 0,
+        "content_padding_bottom": 6.4,
+        "content_padding_left": 24,
+        "content_padding_right": 24
+      }
+    },
+    "cd8b72e7-2d11-4f97-be48-f2847811235a": {
+      "type": "dual-tiles",
+      "blocks": {
+        "27b5e517-de81-4379-a83a-c0ead68c2a07": {
+          "type": "tile",
+          "settings": {
+            "color_scheme_text": "text-colors-default",
+            "color_scheme_background": "background-colors-accent-2",
+            "image_desktop": "shopify:\/\/shop_images\/andrea-in-ocean.jpg",
+            "video_desktop_external": "",
+            "video_desktop_aspect_ratio": "16\/9",
+            "placeholder_svg_code": "",
+            "video_mobile_external": "",
+            "video_mobile_aspect_ratio": "16\/9",
+            "video_mobile_compact": false,
+            "content_position_horizontal": "text-center align-center",
+            "content_position_vertical": "justify-center",
+            "title": "",
+            "text_size": 1,
+            "content": "",
+            "button_style": "button--filled",
+            "button_separator": false,
+            "button_text": "",
+            "button_url": "\/",
+            "content_layout": "content--relative",
+            "block_margin_left": 0,
+            "block_margin_right": 0,
+            "block_padding_top": 0,
+            "block_padding_bottom": 0,
+            "block_padding_left": 0,
+            "block_padding_right": 0
+          }
+        },
+        "32592eb8-27f4-41a6-838d-a86db79ce7de": {
+          "type": "tile",
+          "settings": {
+            "color_scheme_text": "text-colors-default",
+            "color_scheme_background": "background-colors-accent-1",
+            "video_desktop_external": "",
+            "video_desktop_aspect_ratio": "16\/9",
+            "placeholder_svg_code": "",
+            "video_mobile_external": "",
+            "video_mobile_aspect_ratio": "16\/9",
+            "video_mobile_compact": false,
+            "content_position_horizontal": "text-left align-start",
+            "content_position_vertical": "justify-center",
+            "title": "THE VISION",
+            "text_size": 2,
+            "content": "<p>During a vacation in Mexico, Andréa and her friend Jill found themselves complaining about the swimwear options available to them, and the persistent issues they faced with swimsuits that never fitted well. They didn’t have the support, they didn’t stay put.<\/p><p><br\/>They weren't made for movement, chasing children, or sophisticated vacations around the world. The conversations inspired Andréa to research more by speaking to other women, that’s where she saw a gap and realized, she had never found a suit that she put on and felt perfect.<br\/><\/p><p>It had been a lifelong search to find a swimsuit that was chic and sexy, but just as supportive as her favorite bra and adjustable so it fit exactly where it needed to.<\/p>",
+            "button_style": "button--filled",
+            "button_separator": false,
+            "button_text": "",
+            "button_url": "",
+            "content_layout": "content--absolute",
+            "block_margin_left": 0,
+            "block_margin_right": 0,
+            "block_padding_top": 0,
+            "block_padding_bottom": 0,
+            "block_padding_left": 0,
+            "block_padding_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "27b5e517-de81-4379-a83a-c0ead68c2a07",
+        "32592eb8-27f4-41a6-838d-a86db79ce7de"
+      ],
+      "settings": {
+        "section_width": "max-w-full",
+        "section_height": 100,
+        "layout": "section-dual-tiles--50-50",
+        "gap_between_tiles": 0,
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0
+      }
+    },
+    "4ecb17c2-c4e3-4bfd-81c0-0f0a2ce55b4d": {
+      "type": "full-width-banner",
+      "blocks": {
+        "a5bfca5c-b092-4113-8f8d-eff7e3ce51e8": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "Eco-minded",
+            "subtitle_url": ""
+          }
+        },
+        "9750f827-f888-4afe-becd-45ab5b145b66": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "content": "<h3>HIGHLY ADJUSTABLE<\/h3>"
+          }
+        },
+        "08c19594-a717-43f9-b4cf-6d6c145fd7c7": {
+          "type": "title",
+          "settings": {
+            "title": "Start your journey"
+          }
+        },
+        "2fc0acbc-f65b-4885-b4ee-67c030c9982b": {
+          "type": "buttons",
+          "settings": {
+            "first_button_text": "Shop Now",
+            "first_button_url": "shopify:\/\/collections\/all",
+            "first_button_style": "button--outlined-inverse",
+            "first_button_color_scheme_background": "background-colors-default",
+            "second_button_text": "Fit Guide",
+            "second_button_url": "shopify:\/\/pages\/fit-guide",
+            "second_button_style": "button--outlined-inverse",
+            "second_button_color_scheme_background": "background-colors-default"
+          }
+        }
+      },
+      "block_order": [
+        "a5bfca5c-b092-4113-8f8d-eff7e3ce51e8",
+        "9750f827-f888-4afe-becd-45ab5b145b66",
+        "08c19594-a717-43f9-b4cf-6d6c145fd7c7",
+        "2fc0acbc-f65b-4885-b4ee-67c030c9982b"
+      ],
+      "settings": {
+        "full_width_banner_height": 100,
+        "banner_layout": "section-full-width-banner--full",
+        "spacing_top_desktop": 0,
+        "spacing_bottom_desktop": 0,
+        "spacing_top_mobile": 0,
+        "spacing_bottom_mobile": 0,
+        "color_scheme_text": "text-colors-inverse",
+        "color_scheme_background": "background-colors-accent-2",
+        "image_desktop": "shopify:\/\/shop_images\/imgonline-com-ua-CompressToSize-ocGbMOH7e4WlGtN6.jpg",
+        "video_desktop_external": "",
+        "video_mobile_external": "",
+        "content_position_horizontal": "align-center text-center",
+        "content_position_vertical": "justify-end",
+        "content_padding_top": 0,
+        "content_padding_bottom": 6.4,
+        "content_padding_left": 24,
+        "content_padding_right": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0a31313a-a7f9-4a2c-8ec9-57645abd73c7",
+    "a52d1c85-9315-44fd-b170-834e156ae9c3",
+    "da04f0ee-aadf-4811-b976-bf3631493afc",
+    "5363afc8-756d-4160-a8c7-5369a4e1de49",
+    "09f9cddb-4790-4bef-9ed6-d7ff097a4503",
+    "aac5cc7c-36a7-4b7e-a085-70a516091842",
+    "cd8b72e7-2d11-4f97-be48-f2847811235a",
+    "4ecb17c2-c4e3-4bfd-81c0-0f0a2ce55b4d"
+  ]
+}
