@@ -143,7 +143,7 @@
             "button_text": "Delivery & Returns",
             "button_type": "drawer",
             "button_url": "",
-            "drawer_richtext": "<p>Shipping and returns can be inserted here.<\/p>",
+            "drawer_richtext": "<p>Refer to the <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Returns Policy<\/a> page.<\/p>",
             "drawer_page": ""
           }
         },
