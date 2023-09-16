@@ -24,7 +24,7 @@
             "enable_vertical_line": true,
             "button_style": "button--filled",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections"
+            "button_url": "shopify:\/\/collections\/all"
           }
         },
         "8ff5c120-4c56-4512-92d9-7617774d3276": {
@@ -176,7 +176,7 @@
         "title": "Our collections",
         "button_style": "button--outlined-inverse",
         "button_text": "Explore All",
-        "button_url": "shopify:\/\/collections"
+        "button_url": "shopify:\/\/collections\/all"
       }
     },
     "90e984e6-6e27-4581-ad90-2ced240882b7": {
@@ -200,11 +200,11 @@
           "type": "buttons",
           "settings": {
             "first_button_text": "Shop All",
-            "first_button_url": "shopify:\/\/collections",
+            "first_button_url": "shopify:\/\/collections\/all",
             "first_button_style": "button--filled",
             "first_button_color_scheme_background": "background-colors-default",
             "second_button_text": "",
-            "second_button_url": "shopify:\/\/collections",
+            "second_button_url": "shopify:\/\/collections\/all",
             "second_button_style": "default",
             "second_button_color_scheme_background": "background-colors-default"
           }
@@ -214,6 +214,9 @@
         "template--18086433161531__90e984e6-6e27-4581-ad90-2ced240882b7-16771528305845bf22-0",
         "template--18086433161531__90e984e6-6e27-4581-ad90-2ced240882b7-16771528305845bf22-1",
         "template--18086433161531__90e984e6-6e27-4581-ad90-2ced240882b7-16771528305845bf22-2"
+      ],
+      "custom_css": [
+        ".media img {object-position: 70% !important;}"
       ],
       "settings": {
         "full_width_banner_height": 90,
@@ -283,7 +286,7 @@
         "color_scheme_background": "background-colors-default",
         "title": "Signature Collection",
         "button_text": "View all",
-        "button_url": "shopify:\/\/collections",
+        "button_url": "shopify:\/\/collections\/all",
         "button_style": "button--outlined-inverse"
       }
     },
@@ -363,7 +366,7 @@
             "button_style": "button--outlined-inverse",
             "button_separator": true,
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections",
+            "button_url": "shopify:\/\/collections\/all",
             "content_layout": "content--relative",
             "block_margin_left": 0,
             "block_margin_right": 0,
@@ -413,6 +416,7 @@
         "section_height": 95,
         "layout": "section-dual-tiles--50-50",
         "gap_between_tiles": 3.2,
+        "gap_between_tiles_mobile": 0.2,
         "spacing_top_desktop": 6,
         "spacing_bottom_desktop": 6,
         "spacing_top_mobile": 6,
@@ -492,6 +496,7 @@
         "section_height": 95,
         "layout": "section-dual-tiles--50-50",
         "gap_between_tiles": 3.2,
+        "gap_between_tiles_mobile": 0.2,
         "spacing_top_desktop": 6,
         "spacing_bottom_desktop": 6,
         "spacing_top_mobile": 6,
@@ -569,6 +574,22 @@
         "padding_vertical_desktop": "pt-0-desktop pb-0-desktop",
         "padding_vertical_mobile": "pt-0-mobile pb-0-mobile"
       }
+    },
+    "1694417131092acb72": {
+      "type": "apps",
+      "blocks": {
+        "3e370489-cf5b-4349-b381-123647733936": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "3e370489-cf5b-4349-b381-123647733936"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -581,6 +602,7 @@
     "03a45767-3819-40b4-a750-ab1add481edc",
     "a0bea3a0-77e5-4cd1-9fac-83ca5e121f9b",
     "b9e1f375-bbe3-49e0-b449-eff934bd3497",
-    "90f0172d-db82-4963-95c4-6a1724783cd8"
+    "90f0172d-db82-4963-95c4-6a1724783cd8",
+    "1694417131092acb72"
   ]
 }

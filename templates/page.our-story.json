@@ -48,6 +48,7 @@
         "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-title-1",
         "template--14822968787014__0a31313a-a7f9-4a2c-8ec9-57645abd73c7-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width_banner_height": 100,
         "banner_layout": "section-full-width-banner--full",
@@ -140,6 +141,7 @@
         "section_height": 100,
         "layout": "section-dual-tiles--70-30",
         "gap_between_tiles": 0,
+        "gap_between_tiles_mobile": 0.2,
         "spacing_top_desktop": 0,
         "spacing_bottom_desktop": 0,
         "spacing_top_mobile": 0,
@@ -233,6 +235,7 @@
       "block_order": [
         "1c019238-1381-4604-b76f-bb2769b97511"
       ],
+      "disabled": true,
       "settings": {
         "slider_autoplay": false,
         "slider_autoplay_interval": 3,
@@ -308,11 +311,13 @@
         "3378db47-e1f3-4e81-bce6-6b2840a293c9",
         "114989e5-556b-48e5-9e0f-4382b032f1ef"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "max-w-full",
         "section_height": 100,
         "layout": "section-dual-tiles--50-50",
         "gap_between_tiles": 0,
+        "gap_between_tiles_mobile": 0.2,
         "spacing_top_desktop": 0,
         "spacing_bottom_desktop": 0,
         "spacing_top_mobile": 0,
@@ -456,74 +461,11 @@
         "section_height": 100,
         "layout": "section-dual-tiles--50-50",
         "gap_between_tiles": 0,
+        "gap_between_tiles_mobile": 0.2,
         "spacing_top_desktop": 0,
         "spacing_bottom_desktop": 0,
         "spacing_top_mobile": 0,
         "spacing_bottom_mobile": 0
-      }
-    },
-    "4ecb17c2-c4e3-4bfd-81c0-0f0a2ce55b4d": {
-      "type": "full-width-banner",
-      "blocks": {
-        "a5bfca5c-b092-4113-8f8d-eff7e3ce51e8": {
-          "type": "subtitle",
-          "disabled": true,
-          "settings": {
-            "subtitle": "Eco-minded",
-            "subtitle_url": ""
-          }
-        },
-        "9750f827-f888-4afe-becd-45ab5b145b66": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "content": "<h3>HIGHLY ADJUSTABLE<\/h3>"
-          }
-        },
-        "08c19594-a717-43f9-b4cf-6d6c145fd7c7": {
-          "type": "title",
-          "settings": {
-            "title": "Start your journey"
-          }
-        },
-        "2fc0acbc-f65b-4885-b4ee-67c030c9982b": {
-          "type": "buttons",
-          "settings": {
-            "first_button_text": "Shop Now",
-            "first_button_url": "shopify:\/\/collections\/all",
-            "first_button_style": "button--outlined-inverse",
-            "first_button_color_scheme_background": "background-colors-default",
-            "second_button_text": "Fit Guide",
-            "second_button_url": "shopify:\/\/pages\/fit-guide",
-            "second_button_style": "button--outlined-inverse",
-            "second_button_color_scheme_background": "background-colors-default"
-          }
-        }
-      },
-      "block_order": [
-        "a5bfca5c-b092-4113-8f8d-eff7e3ce51e8",
-        "9750f827-f888-4afe-becd-45ab5b145b66",
-        "08c19594-a717-43f9-b4cf-6d6c145fd7c7",
-        "2fc0acbc-f65b-4885-b4ee-67c030c9982b"
-      ],
-      "settings": {
-        "full_width_banner_height": 100,
-        "banner_layout": "section-full-width-banner--full",
-        "spacing_top_desktop": 0,
-        "spacing_bottom_desktop": 0,
-        "spacing_top_mobile": 0,
-        "spacing_bottom_mobile": 0,
-        "color_scheme_text": "text-colors-inverse",
-        "color_scheme_background": "background-colors-accent-2",
-        "image_desktop": "shopify:\/\/shop_images\/imgonline-com-ua-CompressToSize-ocGbMOH7e4WlGtN6.jpg",
-        "video_desktop_external": "",
-        "video_mobile_external": "",
-        "content_position_horizontal": "align-center text-center",
-        "content_position_vertical": "justify-end",
-        "content_padding_top": 0,
-        "content_padding_bottom": 6.4,
-        "content_padding_left": 24,
-        "content_padding_right": 24
       }
     }
   },
@@ -535,7 +477,6 @@
     "5363afc8-756d-4160-a8c7-5369a4e1de49",
     "09f9cddb-4790-4bef-9ed6-d7ff097a4503",
     "aac5cc7c-36a7-4b7e-a085-70a516091842",
-    "cd8b72e7-2d11-4f97-be48-f2847811235a",
-    "4ecb17c2-c4e3-4bfd-81c0-0f0a2ce55b4d"
+    "cd8b72e7-2d11-4f97-be48-f2847811235a"
   ]
 }

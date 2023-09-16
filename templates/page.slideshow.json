@@ -31,6 +31,9 @@
       "block_order": [
         "a13e25d6-e0dd-4032-a2ba-9a81a80051f1"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.hero-banner--full .hero__content {margin-top: 330px; } .media img, .media > iframe, .media video {object-position: 30% !important; } .hero__content {text-align: center !important;align-items: center; }}"
+      ],
       "settings": {
         "slider_autoplay": false,
         "slider_autoplay_interval": 6,
@@ -40,10 +43,10 @@
       }
     },
     "main": {
-      "type": "main-page",
+      "type": "main-page-fitguide",
       "settings": {
-        "show_page_title": true,
-        "breadcrumbs": true,
+        "show_page_title": false,
+        "breadcrumbs": false,
         "info_title": "",
         "info_content": "",
         "color_scheme_text": "text-colors-default",
@@ -52,7 +55,7 @@
     }
   },
   "order": [
-    "main",
-    "67d58420-0a06-4340-abd0-ab44def09bdb"
+    "67d58420-0a06-4340-abd0-ab44def09bdb",
+    "main"
   ]
 }
