@@ -264,22 +264,20 @@ svg.icon:not(.icon--full-color) circle, svg.icon:not(.icon--full-color) ellipse,
 	height: 23px;
 	width: 23px;
 	position: relative;
-	background: #ede9dd;
-	border-radius: 30px;
 	padding: 2px 9px 0 6px;
 	margin: 4px;
-
 	font-weight: 200;
 	font-size: 12px;
 	top: -2px;
-	cursor: pointer
+	cursor: pointer;
+	background-image: url(https://cdn.shopify.com/s/files/1/0150/5306/2192/files/triangle-swiminista.png?v=1694917812);
+	background-size: 46px;
+	color: black;
 }
 .size-filter-wrapper .filter-by-size-option:hover, .size-filter-wrapper .style-quiz-option:hover, .size-filter-wrapper .style-quiz-option-bottom:hover, .size-filter-wrapper .style-quiz-option-top:hover {
-	background: #262626;
 	color: #fff
 }
 .size-filter-wrapper .filter-by-size-option.active, .size-filter-wrapper .style-quiz-option.active, .size-filter-wrapper .style-quiz-option-bottom.active, .size-filter-wrapper .style-quiz-option-top.active {
-	background: #262626;
 	color: #fff
 }
 .size-filter-wrapper .filter-by-size-option.single-digit, .size-filter-wrapper .style-quiz-option.single-digit,  .size-filter-wrapper .style-quiz-option-bottom.single-digit,  .size-filter-wrapper .style-quiz-option-top.single-digit {
@@ -1480,15 +1478,18 @@ a.tall__btn {
 	padding: 20px
 }
 .size-quiz-results .size-result-container .size-result {
-	background: #ede9dd;
-	border-radius: 100px;
+
 	width: 130px;
 	height: 130px;
 	padding: 15px;
 	margin: auto
 }
 .size-quiz-results .size-result-container .size-result h6, .size-quiz-results .size-result-container .size-result .h6 {
-	letter-spacing: 3px
+	letter-spacing: 3px;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
 }
 .size-quiz-results .size-result-container .size-result h2, .size-quiz-results .size-result-container .size-result .h2 {
 	font-size: 40px !important;
@@ -1746,23 +1747,30 @@ height: auto;
     height: 23px;
     width: 23px;
     position: relative;
-    background: #ede9dd;
-    border-radius: 50%;
     padding: 2px 9px 0 6px;
     margin: 4px;
     font-weight: 200;
-    /* top: -2px; */
+	background-image: url("https://cdn.shopify.com/s/files/1/0150/5306/2192/files/triangle-swiminista.png?v=1694917812");
+	background-size: 150px;
     cursor: pointer;
     line-height: 4.7em;
     width: 150px;
     height: 150px;
     padding: 0;
-    font-size: 30px;
+    font-size: 20px;
+	color: black;
+}
+
+.choosetype-quiz span{
+	right: 0;
+    bottom: 0;
+    position: absolute;
+    line-height: initial;
+	left: 0;
 }
 
 .choosetype-quiz:hover
 {
-    background: #000;
     color:#fff;
 }
   .style-quiz-page .questions-container .style-quiz-option,  .style-quiz-page .questions-container .style-quiz-option-bottom,.style-quiz-page .questions-container .style-quiz-option-top {
@@ -1771,19 +1779,33 @@ height: auto;
     padding: 11px 8px 0 8px;
     font-size: 16px;
 }
+
+.style-quiz-page .questions-container .style-quiz-option span,  .style-quiz-page .questions-container .style-quiz-option-bottom span,.style-quiz-page .questions-container .style-quiz-option-top span{
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: initial;
+}
 .size-quiz-results .size-result-container .size-result {
-    background: #ede9dd;
-    border-radius: 50%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0150/5306/2192/files/triangle-swiminista.png?v=1694917812);
     width: 220px;
     height: 220px;
     padding: 15px;
     margin: auto;
+	background-size: 220px;
+	position: relative;
 }
 .size-quiz-results .size-result-container .size-result h2, .size-quiz-results .size-result-container .size-result .h2 {
-    font-size: 40px !important;
+    font-size: 30px !important;
     line-height: 1.6em;
-margin:0;
-    }
+	margin:0;
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: initial;
+}
 </style>
 
 <div id="shopify-section-style-size-quiz-choosetype" class="shopify-section"><div class="hide choosetype-question-wrapper style-quiz-page" data-page-index="1" data-previous-page="0" data-next-page="2">
@@ -1791,9 +1813,9 @@ margin:0;
     <div style="width: 100%;">
       <h4 class="garamond text-center">I am interested in:</h4>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="1" class="single-digit choosetype-quiz type-tops">Tops</p>
-        <p data-value="2" class="single-digit choosetype-quiz type-bottoms">Bottoms</p>
-        <p data-value="3" class="single-digit choosetype-quiz type-onepiece">One-piece</p>
+        <p data-value="1" class="single-digit choosetype-quiz type-tops"><span>Tops</span></p>
+        <p data-value="2" class="single-digit choosetype-quiz type-bottoms"><span>Bottoms</span></p>
+        <p data-value="3" class="single-digit choosetype-quiz type-onepiece"><span>One-Piece</span></p>
 
         <div class="button-container">
           <div style="margin-top:50px;">
@@ -1830,12 +1852,12 @@ margin:0;
     <div style="width: 100%;">
       <h4 class="garamond text-center">My Dress size is:</h4>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="2" class="single-digit style-quiz-option">2</p>
-        <p data-value="4" class="single-digit style-quiz-option">4</p>
-        <p data-value="6" class="single-digit style-quiz-option">6</p>
-        <p data-value="8" class="single-digit style-quiz-option">8</p>
-        <p data-value="10" class="double-digit style-quiz-option">10</p>
-        <p data-value="12" class="double-digit style-quiz-option">12</p>
+        <p data-value="2" class="single-digit style-quiz-option"><span>2</span></p>
+        <p data-value="4" class="single-digit style-quiz-option"><span>4</span></p>
+        <p data-value="6" class="single-digit style-quiz-option"><span>6</span></p>
+        <p data-value="8" class="single-digit style-quiz-option"><span>8</span></p>
+        <p data-value="10" class="double-digit style-quiz-option"><span>10</span></p>
+        <p data-value="12" class="double-digit style-quiz-option"><span>12</span></p>
 
         <input class="hide dress-size" name="dress-size" value="">
         <div class="button-container">
@@ -1873,12 +1895,12 @@ margin:0;
     <div style="width: 100%;">
       <h4 class="garamond text-center">My Jean size is:</h4>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="2" class="single-digit style-quiz-option-bottom">2</p>
-        <p data-value="4" class="single-digit style-quiz-option-bottom">4</p>
-        <p data-value="6" class="single-digit style-quiz-option-bottom">6</p>
-        <p data-value="8" class="single-digit style-quiz-option-bottom">8</p>
-        <p data-value="10" class="double-digit style-quiz-option-bottom">10</p>
-        <p data-value="12" class="double-digit style-quiz-option-bottom">12</p>
+        <p data-value="2" class="single-digit style-quiz-option-bottom"><span>2</span></p>
+        <p data-value="4" class="single-digit style-quiz-option-bottom"><span>4</span></p>
+        <p data-value="6" class="single-digit style-quiz-option-bottom"><span>6</span></p>
+        <p data-value="8" class="single-digit style-quiz-option-bottom"><span>8</span></p>
+        <p data-value="10" class="double-digit style-quiz-option-bottom"><span>10</span></p>
+        <p data-value="12" class="double-digit style-quiz-option-bottom"><span>12</span></p>
 
         <input class="hide jean-size-bottom" name="jean-size-bottom" value="">
         <div class="button-container">
@@ -1917,22 +1939,22 @@ margin:0;
       <h4 class="garamond text-center">In bras, my size is:</h4>
       <h6 class="mini-headline isidora-semibold text-center">BAND SIZE</h6>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="30" class="single-digit style-quiz-option-top">30</p>
-        <p data-value="32" class="single-digit style-quiz-option-top">32</p>
-        <p data-value="34" class="single-digit style-quiz-option-top">34</p>
-        <p data-value="36" class="double-digit style-quiz-option-top">36</p>
-        <p data-value="38" class="double-digit style-quiz-option-top">38</p>
-        <p data-value="40" class="double-digit style-quiz-option-top">40</p>
+        <p data-value="30" class="single-digit style-quiz-option-top"><span>30</span></p>
+        <p data-value="32" class="single-digit style-quiz-option-top"><span>32</span></p>
+        <p data-value="34" class="single-digit style-quiz-option-top"><span>34</span></p>
+        <p data-value="36" class="double-digit style-quiz-option-top"><span>36</span></p>
+        <p data-value="38" class="double-digit style-quiz-option-top"><span>38</span></p>
+        <p data-value="40" class="double-digit style-quiz-option-top"><span>40</span></p>
 
         <input class="hide band-size-top" name="band-size-top" value="">
       </div>
       <h6 class="mini-headline isidora-semibold text-center">CUP SIZE</h6>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="1" class="single-digit style-quiz-option-top">A</p>
-        <p data-value="2" class="single-digit style-quiz-option-top">B</p>
-        <p data-value="3" class="single-digit style-quiz-option-top">C</p>
-        <p data-value="4" class="double-digit style-quiz-option-top">D</p>
-        <p data-value="5" class="double-digit style-quiz-option-top">DD</p>
+        <p data-value="1" class="single-digit style-quiz-option-top"><span>A</span></p>
+        <p data-value="2" class="single-digit style-quiz-option-top"><span>B</span></p>
+        <p data-value="3" class="single-digit style-quiz-option-top"><span>C</span></p>
+        <p data-value="4" class="double-digit style-quiz-option-top"><span>D</span></p>
+        <p data-value="5" class="double-digit style-quiz-option-top"><span>DD</span></p>
 
         <input class="hide cup-size-top" name="cup-size-top" value="">
       </div>
@@ -1967,22 +1989,22 @@ margin:0;
       <h4 class="garamond text-center">In bras, my size is:</h4>
       <h6 class="mini-headline isidora-semibold text-center">BAND SIZE</h6>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="30" class="single-digit style-quiz-option">30</p>
-        <p data-value="32" class="single-digit style-quiz-option">32</p>
-        <p data-value="34" class="single-digit style-quiz-option">34</p>
-        <p data-value="36" class="double-digit style-quiz-option">36</p>
-        <p data-value="38" class="double-digit style-quiz-option">38</p>
-        <p data-value="40" class="double-digit style-quiz-option">40</p>
+        <p data-value="30" class="single-digit style-quiz-option"><span>30</span></p>
+        <p data-value="32" class="single-digit style-quiz-option"><span>32</span></p>
+        <p data-value="34" class="single-digit style-quiz-option"><span>34</span></p>
+        <p data-value="36" class="double-digit style-quiz-option"><span>36</span></p>
+        <p data-value="38" class="double-digit style-quiz-option"><span>38</span></p>
+        <p data-value="40" class="double-digit style-quiz-option"><span>40</span></p>
 
         <input class="hide band-size" name="band-size" value="">
       </div>
       <h6 class="mini-headline isidora-semibold text-center">CUP SIZE</h6>
       <div class="size-filter-wrapper text-center quiz-question-container">
-        <p data-value="1" class="single-digit style-quiz-option">A</p>
-        <p data-value="2" class="single-digit style-quiz-option">B</p>
-        <p data-value="3" class="single-digit style-quiz-option">C</p>
-        <p data-value="4" class="double-digit style-quiz-option">D</p>
-        <p data-value="5" class="double-digit style-quiz-option">DD</p>
+        <p data-value="1" class="single-digit style-quiz-option"><span>A</span></p>
+        <p data-value="2" class="single-digit style-quiz-option"><span>B</span></p>
+        <p data-value="3" class="single-digit style-quiz-option"><span>C</span></p>
+        <p data-value="4" class="double-digit style-quiz-option"><span>D</span></p>
+        <p data-value="5" class="double-digit style-quiz-option"><span>DD</span></p>
 
         <input class="hide cup-size" name="cup-size" value="">
       </div>
@@ -2019,7 +2041,7 @@ margin:0;
         <div style="margin-top:100px;">
           <div class="section-header top-section-header text-center">
             <h4 class="garamond text-center">You are a</h4>
-            <div class="size-result-container" style="background:url(//cdn.shopify.com/s/files/1/1869/0651/t/12/assets/dotted-border.png?51520) center no-repeat;background-size: 17%;">
+            <div class="size-result-container">
               <div class="size-result">
                 <h6 class="isidora-semibold">SIZE</h6>
                 <h2 class="isidora-bold"><span class="size-value"></span></h2>
