@@ -121,6 +121,9 @@
                           aria-describedby="a11y-refresh-page-message"
                         >
                           {%- for option in results.sort_options -%}
+                            {% if option.name == "Date, old to new" or option.name == "Date, new to old" %}
+                            {%  continue  %}
+                            {% endif %}
                             <option
                               value="{{- option.value | escape -}}"
                               {% if option.value == sort_by %}selected="selected"{% endif %}
