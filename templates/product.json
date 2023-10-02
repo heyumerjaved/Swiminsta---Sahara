@@ -75,6 +75,7 @@
         },
         "b2dabe12-2158-4ba6-bc54-9baae453acf5": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Free delivery and shipping",
             "text_style": "body",

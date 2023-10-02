@@ -72,7 +72,7 @@
       ],
       "settings": {
         "fullwidth": true,
-        "sticky": false,
+        "sticky": true,
         "layout": "",
         "transparent_header_homepage": true,
         "transparent_header_collection": false,
@@ -89,7 +89,7 @@
         "country_drawer_navigation_menu": false,
         "first_additional_link_title": "Our Designer",
         "first_additional_link_url": "shopify:\/\/pages\/our-story",
-        "second_additional_link_title": "Blog",
+        "second_additional_link_title": "",
         "second_additional_link_url": "shopify:\/\/blogs\/blog"
       }
     }

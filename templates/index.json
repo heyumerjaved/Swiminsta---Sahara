@@ -10,9 +10,10 @@
             "color_scheme_text": "text-colors-inverse",
             "color_scheme_background": "background-colors-inverse",
             "header_menu_text_color": "#ffffff",
-            "video": "shopify:\/\/files\/videos\/Swiminista Vibe Video for Website.mp4",
+            "video": "shopify:\/\/files\/videos\/Website_horizontal_1_09-21-23.mp4",
             "video_external": "",
             "enable_media_overlay_desktop": false,
+            "video_mobile": "shopify:\/\/files\/videos\/Website_mobile_Vertical_09-21-23.mp4",
             "video_external_mobile": "",
             "enable_media_overlay_mobile": true,
             "content_position_horizontal": "align-center text-center",
@@ -112,6 +113,17 @@
         "slider_arrows": true,
         "slider_arrows_position": "hero__swiper-buttons--sides",
         "slider_arrows_color": "text-colors-inverse"
+      }
+    },
+    "e1d1b4ed-a2db-424f-be69-ecd51270de5d": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "padding_vertical_desktop": "",
+        "padding_vertical_mobile": "",
+        "color_scheme_text": "text-colors-default",
+        "color_scheme_background": "background-colors-default",
+        "custom_liquid": "<div class=\"container\" style=\"text-align: center;\">\n<div class=\"section__head\">\n<h2 class=\"section__title\">Shop the look<\/h2>\n<\/div>\n<div class=\"imagecontainer\" style=\"max-width: 500px; margin: auto;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0150\/5306\/2192\/files\/Swiminista-09.18.23-Naluda-1080x1920.jpg?v=1695093810\"><\/div>\n<div class=\"section__foot\">\n          \n<a href=\"\/collections\/naluda\" class=\"button button--auto  button--outlined-inverse button--uppercase\">Shop the collection<\/a>\n        <\/div>\n<\/div>"
       }
     },
     "16e24524-2040-41a4-b5ca-3a425d62879b": {
@@ -332,7 +344,7 @@
       "type": "apps",
       "blocks": {
         "69af9c09-47f5-4782-8a47-4905235fe431": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
@@ -505,6 +517,7 @@
     },
     "b9e1f375-bbe3-49e0-b449-eff934bd3497": {
       "type": "blog-articles",
+      "disabled": true,
       "settings": {
         "padding_vertical_desktop": "",
         "padding_vertical_mobile": "",
@@ -594,6 +607,7 @@
   },
   "order": [
     "1658995208ad05f95f",
+    "e1d1b4ed-a2db-424f-be69-ecd51270de5d",
     "16e24524-2040-41a4-b5ca-3a425d62879b",
     "90e984e6-6e27-4581-ad90-2ced240882b7",
     "1658994245757c7b20",
