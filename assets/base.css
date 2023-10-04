@@ -2045,7 +2045,7 @@ dropdown-input.has-error .dropdown__button {
 
 .swiper-button {
   width: 4.2rem;
-  height: 4rem;
+  height: 6rem;
   padding: 0;
   background: none;
   border: none;
@@ -2063,7 +2063,7 @@ dropdown-input.has-error .dropdown__button {
 
 .swiper-button svg {
   width: 100%;
-  height: auto;
+  height: 4rem;
   pointer-events: none;
 }
 
@@ -2965,6 +2965,16 @@ html.js .animation-none {
 .shopify-challenge__button {
     color: var(--color-button-filled-text);
     background-color: var(--color-button-filled-background);
+}
+
+.jdgm-carousel__right-arrow:empty,.jdgm-carousel__left-arrow:empty {
+  border-color: black;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 500px){
+  .jdgm-carousel--focused-theme .jdgm-carousel-item__review-wrapper {
+      width: 72% !important;
+  }
 }
 
 @media (hover: hover) {

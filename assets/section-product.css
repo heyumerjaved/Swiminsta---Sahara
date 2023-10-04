@@ -859,6 +859,9 @@ product-modal {
 
 .product-selector__submit {
   width: 100%;
+  background-color: #d6a347;
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .product__purchase-options-foot {
@@ -1659,5 +1662,16 @@ product-modal {
 
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
+  }
+}
+
+.template-theme--sahara .swiper-button{
+  color: black;
+}
+
+@media screen and (min-width: 990px){
+  .product__media .swiper-button {
+      width: 5rem;
+      height: 5rem;
   }
 }
