@@ -27,7 +27,7 @@
           </div>
         {% endif %}
       </div>
-      <div class="new_text_img_col_single">
+      <div class="new_text_img_col_single img_col">
         {% if section.settings.model != blank %}
           <div class="new_text_img_col_model">
             <img src="{{ section.settings.model | img_url:'master' }}">
@@ -39,9 +39,9 @@
 <style>
   .new_text_img_col {
     margin: 50px auto;
-    max-width: 768px;
+    max-width: 992px;
   }
-  .new_text_img_col_heading {
+  .new_text_img_col .new_text_img_col_heading {
     color: #dc3b9d;
     text-align: center;
     margin: 0 auto;
@@ -49,16 +49,49 @@
     font-weight: 600;
     line-height: 25px;
   }
-  .new_text_img_col_inner{
+  .new_text_img_col .new_text_img_col_inner{
     display:grid;
-    grid-tempalate-columns:50% 50%;
+    grid-template-columns: 50% 50%;
   }
-  .new_text_img_col_single.text_col{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-  } 
+  .new_text_img_col .new_text_img_col_single.text_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e9e9e7;
+    padding: 35px;
+}
+
+  .new_text_img_col .new_text_img_col_logo {
+    max-width: 150px;
+}
+  .new_text_img_col .new_text_img_col_des p {
+    text-transform: none;
+    color: #000;
+}
+  .new_text_img_col .new_text_img_col_designation {
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    margin-top: -10px;
+}
+  .new_text_img_col .new_text_img_col_name {
+    text-align: left;
+    width: 100%;
+    font-family: var(--font-heading-family);
+    font-size: 22px;
+}
+  .new_text_img_col .new_text_img_col_single.img_col .new_text_img_col_model img{
+    max-width:100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .new_text_img_col .new_text_img_col_model {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    object-fit: cover;
+}
 </style>
 {% schema %}
 {
