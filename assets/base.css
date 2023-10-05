@@ -1,18 +1,9 @@
 @font-face {
-    font-family: 'operetta_12regular';
-    src: url( {{ 'operetta12-regular-webfont.woff2' | asset_url }}) format('woff2'),
-         url( {{ 'operetta12-regular-webfont.woff' | asset_url }}) format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'operetta_52medium';
-    src: url( {{ 'operetta52-medium-webfont.woff2' | asset_url }}) format('woff2'),
-         url( {{ 'operetta52-medium-webfont.woff' | asset_url }}) format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'operetta_32medium';
+  src: url('https://cdn.shopify.com/s/files/1/0150/5306/2192/files/operetta32-medium-webfont.woff2?v=1696545130') format('woff2'),
+       url('https://cdn.shopify.com/s/files/1/0150/5306/2192/files/operetta32-medium-webfont.woff?v=1696545130') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
