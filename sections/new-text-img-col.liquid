@@ -1,0 +1,86 @@
+<div class="new_text_img_col">
+  <div class="max-w-page">
+    {% if section.settings.title != blank %}
+      <div class="new_text_img_col_heading">
+        {{ section.settings.title }}
+      </div>
+    {% endif %}
+    <div class="new_text_img_col_inner">
+      <div class="new_text_img_col_single">
+        {% if section.settings.logo != blank %}
+          <div class="new_text_img_col_logo">
+            <img src="{{ section.settings.logo | img_url:'master' }}">
+          </div>
+        {% endif %}
+        {% if section.settings.des != blank %}
+          <div class="new_text_img_col_des">
+            {{ section.settings.des }}
+          </div>
+        {% endif %}
+        {% if section.settings.name != blank %}
+          <div class="new_text_img_col_name">
+            {{ section.settings.name }}
+          </div>
+        {% endif %}
+        {% if section.settings.designation != blank %}
+          <div class="new_text_img_col_designation">
+            {{ section.settings.designation }}
+          </div>
+        {% endif %}
+      </div>
+      <div class="new_text_img_col_single">
+        {% if section.settings.model != blank %}
+          <div class="new_text_img_col_model">
+            <img src="{{ section.settings.model | img_url:'master' }}">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "New Image Text",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "title",
+      "label":"Heading Text",
+      "default": "<p>PROUDLY SUPPORTING FRAN DRESCHER'S CANCER SCHMANCER MOVEMENT! SITE WIDE: 15% OF SALES WILL BE ALLOCATED TO SUPPORTING CANCER SCHMANER UNTIL THE END OF OCTOBER!</p>"
+    },
+    {
+     "type": "image_picker",
+     "id": "model",
+     "label": "Model"
+    },
+    {
+     "type": "image_picker",
+     "id": "logo",
+     "label": "Logo"
+    },
+    {
+      "type": "richtext",
+      "label":"Description",
+      "id": "des",
+      "default": "<p>PROUDLY SUPPORTING FRAN DRESCHER'S CANCER SCHMANCER MOVEMENT! SITE WIDE: 15% OF SALES WILL BE ALLOCATED TO SUPPORTING CANCER SCHMANER UNTIL THE END OF OCTOBER!</p>"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Name",
+      "default": "ANDRÉA BERNHOLTZ"
+    },
+        {
+      "type": "text",
+      "id": "designation",
+      "label": "Designation",
+      "default": "DESIGNER & CEO, SWIMINISTA"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Image Text"
+    }
+  ]
+}
+{% endschema %}
