@@ -37,6 +37,24 @@
     </div>
 </div>
 <style>
+@font-face {
+    font-family: 'operetta_12regular';
+    src: url( {{ 'operetta12-regular-webfont.woff2' | asset_url }}) format('woff2'),
+         url( {{ 'operetta12-regular-webfont.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'operetta_52medium';
+    src: url( {{ 'operetta52-medium-webfont.woff2' | asset_url }}) format('woff2'),
+         url( {{ 'operetta52-medium-webfont.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
   .new_text_img_col {
     margin: 50px auto;
     max-width: 992px;
@@ -52,6 +70,7 @@
   .new_text_img_col .new_text_img_col_inner{
     display:grid;
     grid-template-columns: 50% 50%;
+  margin-top:50px;
   }
   .new_text_img_col .new_text_img_col_single.text_col {
     display: flex;
@@ -65,21 +84,23 @@
   .new_text_img_col .new_text_img_col_logo {
     max-width: 150px;
 }
-  .new_text_img_col .new_text_img_col_des p {
+  .new_text_img_col .new_text_img_col_des p,.new_text_img_col .new_text_img_col_des {
     text-transform: none;
     color: #000;
+  font-size:14px;
 }
   .new_text_img_col .new_text_img_col_designation {
     width: 100%;
-    font-size: 20px;
+    font-size: 19px;
     color: #000;
     margin-top: -10px;
 }
   .new_text_img_col .new_text_img_col_name {
-    text-align: left;
+    margin-top:30px;
     width: 100%;
-    font-family: var(--font-heading-family);
-    font-size: 22px;
+    font-family: 'operetta_52medium';
+    font-size: 30px;
+    color: #000;
 }
   .new_text_img_col .new_text_img_col_single.img_col .new_text_img_col_model img{
     max-width:100%;
@@ -92,6 +113,21 @@
     height: 100%;
     object-fit: cover;
 }
+  @media only screen and (max-width:768px){
+    .new_text_img_col .new_text_img_col_inner{
+      grid-template-columns: 1fr;
+    }
+    .new_text_img_col .new_text_img_col_heading {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    .new_text_img_col .new_text_img_col_designation {
+        font-size: 16px;
+    }
+    .new_text_img_col .new_text_img_col_name {
+        font-size: 20px;
+    }
+  }
 </style>
 {% schema %}
 {
