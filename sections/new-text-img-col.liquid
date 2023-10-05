@@ -1,12 +1,11 @@
 <div class="new_text_img_col">
-  <div class="max-w-page">
     {% if section.settings.title != blank %}
       <div class="new_text_img_col_heading">
         {{ section.settings.title }}
       </div>
     {% endif %}
     <div class="new_text_img_col_inner">
-      <div class="new_text_img_col_single">
+      <div class="new_text_img_col_single text_col">
         {% if section.settings.logo != blank %}
           <div class="new_text_img_col_logo">
             <img src="{{ section.settings.logo | img_url:'master' }}">
@@ -36,8 +35,31 @@
         {% endif %}
       </div>
     </div>
-  </div>
 </div>
+<style>
+  .new_text_img_col {
+    margin: 50px auto;
+    max-width: 768px;
+  }
+  .new_text_img_col_heading {
+    color: #dc3b9d;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .new_text_img_col_inner{
+    display:grid;
+    grid-tempalate-columns:50% 50%;
+  }
+  .new_text_img_col_single.text_col{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  } 
+</style>
 {% schema %}
 {
   "name": "New Image Text",

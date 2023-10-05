@@ -603,6 +603,17 @@
       ],
       "settings": {
       }
+    },
+    "99e4d91b-b636-4e77-9927-39a7627dacc7": {
+      "type": "new-text-img-col",
+      "settings": {
+        "title": "<p>PROUDLY SUPPORTING FRAN DRESCHER'S <br\/>CANCER SCHMANCER MOVEMENT! <\/p><p>SITE WIDE: 15% OF SALES WILL BE ALLOCATED TO SUPPORTING<br\/> CANCER SCHMANER<br\/> UNTIL THE END OF OCTOBER!<\/p>",
+        "model": "shopify:\/\/shop_images\/model.jpg",
+        "logo": "shopify:\/\/shop_images\/New_Project.webp",
+        "des": "<p>PROUDLY SUPPORTING FRAN DRESCHER'S CANCER SCHMANCER MOVEMENT! SITE WIDE: 15% OF SALES WILL BE ALLOCATED TO SUPPORTING CANCER SCHMANER UNTIL THE END OF OCTOBER!<\/p>",
+        "name": "ANDRÉA BERNHOLTZ",
+        "designation": "DESIGNER & CEO, SWIMINISTA"
+      }
     }
   },
   "order": [
@@ -617,6 +628,7 @@
     "a0bea3a0-77e5-4cd1-9fac-83ca5e121f9b",
     "b9e1f375-bbe3-49e0-b449-eff934bd3497",
     "90f0172d-db82-4963-95c4-6a1724783cd8",
-    "1694417131092acb72"
+    "1694417131092acb72",
+    "99e4d91b-b636-4e77-9927-39a7627dacc7"
   ]
 }
