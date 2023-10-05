@@ -184,5 +184,38 @@
     {% endif %}
     <!-- subify Snippet End -->
 
+    {% if template == "product" %}
+      <div class="sticky-cart">
+        <button class="add-to-cart-button">Add to Cart</button>
+      </div>
+      <script>
+        // JavaScript to control the visibility of the sticky button
+        window.addEventListener("scroll", function() {
+            const productSelector = document.querySelector(".product-selector__submit");
+            const stickyCart = document.querySelector(".sticky-cart");
+
+            if (productSelector && stickyCart) {
+                const productSelectorBottom = productSelector.getBoundingClientRect().bottom;
+
+                if (productSelectorBottom <= 0) {
+                    stickyCart.style.bottom = "0";
+                } else {
+                    stickyCart.style.bottom = "-65px"; // Hide the button
+                }
+            }
+        });
+        // Get the elements by their class names
+        const addToCartButton = document.querySelector(".add-to-cart-button");
+        const productSubmitButton = document.querySelector(".product-selector__submit");
+
+        // Add a click event listener to the addToCartButton
+        addToCartButton.addEventListener("click", function() {
+          // Simulate a click on the productSubmitButton
+          productSubmitButton.click();
+        });
+
+    </script>
+    {% endif %}
+
   </body>
 </html>

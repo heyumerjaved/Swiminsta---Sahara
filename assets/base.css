@@ -2977,6 +2977,41 @@ html.js .animation-none {
   }
 }
 
+/* Sticky Add to Cart Button */
+.sticky-cart {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  padding: 15px 15px;
+  border-top: 1px solid #ccc;
+  z-index: 999;
+  box-shadow: 0px 0px 10px #00000036;
+}
+.add-to-cart-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #d6a347;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0px;
+}
+
+.sticky-cart {
+  position: fixed;
+  bottom: -50px; /* Hide the button initially */
+  padding: 15px;
+  z-index: 999;
+  width: 100%;
+  transition: bottom 0.3s ease-in-out;
+}
+
 @media (hover: hover) {
   .shopify-challenge__button:hover {
     color: var(--color-button-filled-background);
