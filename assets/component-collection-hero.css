@@ -173,7 +173,7 @@ html.no-js .collection-hero {
 
   .collection-hero__content {
     max-width: 70rem;
-    margin: 0 auto 6.4rem;
+    margin: 0;
   }
 
   .collection-hero.banner--split .collection-hero__content {
