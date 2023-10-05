@@ -6,26 +6,38 @@
     {% endif %}
     <div class="new_text_img_col_inner">
       <div class="new_text_img_col_single text_col">
+        
         {% if section.settings.logo != blank %}
           <div class="new_text_img_col_logo">
             <img src="{{ section.settings.logo | img_url:'master' }}">
           </div>
         {% endif %}
         {% if section.settings.des != blank %}
-          <div class="new_text_img_col_des">
-            {{ section.settings.des }}
+        <div style="position:relative">
+          <div class="top_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
           </div>
-        {% endif %}
-        {% if section.settings.name != blank %}
-          <div class="new_text_img_col_name">
-            {{ section.settings.name }}
+            <div class="new_text_img_col_des">
+              {{ section.settings.des }}
+            </div>
+          
+          <div class="bottom_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg>
           </div>
+        </div>
         {% endif %}
-        {% if section.settings.designation != blank %}
-          <div class="new_text_img_col_designation">
-            {{ section.settings.designation }}
-          </div>
-        {% endif %}
+        
+          {% if section.settings.name != blank %}
+            <div class="new_text_img_col_name">
+              {{ section.settings.name }}
+            </div>
+          {% endif %}
+          {% if section.settings.designation != blank %}
+            <div class="new_text_img_col_designation">
+              {{ section.settings.designation }}
+            </div>
+          {% endif %}
+        
       </div>
       <div class="new_text_img_col_single img_col">
         {% if section.settings.model != blank %}
@@ -37,23 +49,7 @@
     </div>
 </div>
 <style>
-@font-face {
-    font-family: 'operetta_12regular';
-    src: url( {{ 'operetta12-regular-webfont.woff2' | asset_url }}) format('woff2'),
-         url( {{ 'operetta12-regular-webfont.woff' | asset_url }}) format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-
-@font-face {
-    font-family: 'operetta_52medium';
-    src: url( {{ 'operetta52-medium-webfont.woff2' | asset_url }}) format('woff2'),
-         url( {{ 'operetta52-medium-webfont.woff' | asset_url }}) format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
   
   .new_text_img_col {
     margin: 50px auto;
@@ -88,6 +84,8 @@
     text-transform: none;
     color: #000;
   font-size:14px;
+    position: relative;
+    z-index: 1;
 }
   .new_text_img_col .new_text_img_col_designation {
     width: 100%;
@@ -113,6 +111,22 @@
     height: 100%;
     object-fit: cover;
 }
+   .new_text_img_col .top_icon {
+    position: absolute;
+    font-size: 75px;
+    z-index: 0;
+    top: -15px;
+    left: -10px;
+    opacity: 0.5;
+}
+  .new_text_img_col  .bottom_icon{
+    position: absolute;
+    font-size: 75px;
+    z-index: 0;
+    right: -10px;
+    bottom: 0px;
+    opacity: 0.5;
+  }
   @media only screen and (max-width:768px){
     .new_text_img_col .new_text_img_col_inner{
       grid-template-columns: 1fr;
@@ -120,6 +134,9 @@
     .new_text_img_col .new_text_img_col_heading {
       font-size: 20px;
       line-height: 20px;
+    }
+    .new_text_img_col .new_text_img_col_single.text_col {
+        padding: 35px 15px;
     }
     .new_text_img_col .new_text_img_col_designation {
         font-size: 16px;
