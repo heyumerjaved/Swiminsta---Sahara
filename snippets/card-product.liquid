@@ -24,7 +24,7 @@
 
     assign size_option_values = product_ref.options_by_name[settings.sizes_option].values
     assign color_option_values = product_ref.options_by_name[settings.swatches_option].values
-    assign selected_variant = product_ref.selected_or_first_available_variant
+    assign selected_variant = product_ref.variants.first
 
     assign quick_add_to_cart_button_html = ''
   -%}
@@ -241,9 +241,13 @@
               </div><!-- /.card-product__sizes-messages -->
 
               {% if settings.quick_add_to_cart != 'no_button' %}
-                <ul class="list-unstyled">
-                  {{ size_items_html }}
-                </ul><!-- /.list-unstyled -->
+                <div class="new_card_product_qv_main">
+                  <div class="new_card_product_qv_btn">Quick Buy</div>
+                  <ul class="list-unstyled">
+                    {{ size_items_html }}
+                  </ul><!-- /.list-unstyled -->
+                </div>
+                
               {% endif %}
             </div><!-- /.card-product__sizes-items -->
           </div><!-- /.card-product__sizes-content -->

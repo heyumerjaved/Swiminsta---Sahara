@@ -98,6 +98,56 @@
     <script src="{{- 'swiper-bundle.min.js' | asset_url -}}" defer="defer"></script>
     <script src="{{- 'bodyScrollLock.min.js' | asset_url -}}" defer="defer"></script>
     <script src="{{- 'lazysizes.min.js' | asset_url -}}" defer="defer"></script>
+
+
+
+<style>
+  .card-product__sizes-content ul{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 30px;
+    position: relative;
+    z-index: 2;
+  }
+  .new_card_product_qv_main .new_card_product_qv_btn{
+    display:none;
+  }
+  @media only screen and (min-width:920px){
+    .new_card_product_qv_main {
+      position:relative;
+    }
+    .new_card_product_qv_main .list-unstyled{
+      opacity:0;
+      visibility:0;
+    }
+    .new_card_product_qv_main .new_card_product_qv_btn {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: var(--color-popup-background);
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin: 0 30px;
+      padding: 1.8rem 0.6rem;
+      position: absolute;
+      width: 215px;
+      left: 40%;
+      transform: translatex(-50%);
+      z-index: 0;
+    }
+    .new_card_product_qv_main:hover .list-unstyled{
+      opacity:1;
+      visibility:visible;
+    }
+    .new_card_product_qv_main:hover .new_card_product_qv_btn{
+      opacity:0;
+      visibility:0;
+    }
+  }
+  
+</style>
+
+
+
+    
   </head>
 
   <body class="template template--{{ template.name }}{% if template.suffix %} template--{{- template.suffix -}}{% endif %} template-theme--{{- settings.theme_style_name -}}">

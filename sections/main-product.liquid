@@ -414,6 +414,7 @@
                 {%- endform -%}
                 </div><!-- /.product__installments -->
               {%- when 'variant_picker' -%}
+              
               {%- render 'main-product__variant-picker',
                 product: product,
                 section: section,
@@ -422,6 +423,11 @@
                 product_form_installments_id: product_form_installments_id
               -%}
 
+              <script>
+              document.querySelectorAll('.product__swatches.swatches input').forEach((input)=>{
+                  input.disabled = false;
+              })
+              </script>
               {%- when 'purchase_options' -%}
               {%- render 'main-product__purchase-options',
                 product: product,

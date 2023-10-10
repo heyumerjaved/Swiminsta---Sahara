@@ -43,6 +43,9 @@
         {% if section.settings.model != blank %}
           <div class="new_text_img_col_model">
             <img src="{{ section.settings.model | img_url:'master' }}">
+            <div class="hero__button">
+              <a href="{{ section.settings.btn_link | default:'/collections/all' }}" class="button button--filled button--uppercase">{{ section.settings.btn_text }}</a>
+            </div>
           </div>
         {% endif %}
       </div>
@@ -50,7 +53,15 @@
 </div>
 <style>
 
-  
+  .new_text_img_col_single.img_col {
+    position: relative;
+  }
+  .new_text_img_col_single.img_col .hero__button {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+  }
   .new_text_img_col {
     margin: 50px auto;
     max-width: 992px;
@@ -183,6 +194,17 @@
       "id": "designation",
       "label": "Designation",
       "default": "DESIGNER & CEO, SWIMINISTA"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP ALL"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Button link"
     }
   ],
   "presets": [
